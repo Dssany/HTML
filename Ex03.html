@@ -5,44 +5,72 @@
 <title>Insert title here</title>
 </head>
 <body>
+<div style="background-color: pink;">
+div영역<span style="background-color: peru;">span 영역</span>
+div영역<span style="background-color: hotpink;">span 영역</span>
+div영역<span style="background-color: tan;">span 영역</span>
+</div>
 	ex03.html
-	<br>
-	<form action="ex01/html">
-		<input type="button" value="버튼전송"><br> 이름 <input type="text"><br> 주소
-		<input type="text"><br> <input type="reset" value="초기화"> <input
-			type="submit" value="전송"><br>
-	</form>
 	<hr>
-
-	놀기
-	<input type="checkbox" checked> 밥먹기
-	<input type="checkbox"> 자기
-	<input type="checkbox"> 게임
-	<input type="checkbox">
-
+	<h3>div 공간분할</h3>
+	<div style="background-color: pink;">div영역</div>
+	<div style="background-color: skyblue;">div영역</div>
+	<div style="background-color: aliceblue;">div영역</div>
+	<h3>span 공간분할</h3>
+	<span style="background-color: peru;">span 영역</span>
+	<span style="background-color: hotpink;">span 영역</span>
+	<span style="background-color: tan;">span 영역</span>
 	<hr>
+	<br>
+	<fieldset style="width: 500px;">
+		<legend>취미조사</legend>
+		놀기<input type="checkbox"> 또 놀기<input type="checkbox">
+		계속 놀기<input type="checkbox">
 
-	10대
-	<input type="radio" name="age" checked="checked"> 20대
-	<input type="radio" name="age"> 30대
-	<input type="radio" name="age1"> 40대
-	<input type="radio" name="age1">
+		<form action="Ex01.html" method="get">
+			하고싶은말<br>
+			<textarea name="test" rows="3" cols="50"></textarea>
+			<button type="submit">
+				<img src="test.jpg" width="50px" height="50px">
+			</button>
+		</form>
 
-	<hr>
-	<input type="button" value="버튼입니다">
-	<br>
-	<input type="submit" value="서브밋">
-	<br>
-	<input type="reset" value="초기화">
-	<br>
-	<input type="text" value="직접값이 들어감" size="10">
-	<br>
-	<input type="password" value="test" maxlength="10">
-	<br>
-	<input type="radio">
-	<br>
-	<input type="checkbox">
-	<br>
+		<hr>
+		<form action="Ex01.html" method="get">
+			<select size="1" name="test">
+				<option value="1" select>사과 전송
+				<option value="2">배
+				<option value="3">복숭아
+				<option value="4">딸기
+			</select>
+			<button type="submit"></button>
+			</fo
+			rm>
+			<hr>
+			<form action="Ex01.html" method="post">
+				<b>이름</b> <input type="text" name="name"><br> <b>주소</b>
+				<input type="text" name="addr"><br>
+				<hr>
+				<input type="reset" value="초기화"> <input type="submit"
+					value="전송"> <input type="button" value="버튼전송">
+			</form>
+			<hr>
 
+			놀기 <input type="checkbox" checked> 밥먹기 <input type="checkbox">
+			자기 <input type="checkbox"> 게임 <input type="checkbox">
+
+			<hr>
+
+			10대 <input type="radio" name="age" checked="checked"> 20대 <input
+				type="radio" name="age"> 30대 <input type="radio" name="age1">
+			40대 <input type="radio" name="age1">
+
+			<hr>
+			<input type="button" value="버튼입니다"> <br> <input
+				type="submit" value="서브밋"> <br> <input type="reset"
+				value="초기화"> <br> <input type="text" value="직접값이 들어감"
+				size="10"> <br> <input type="password" value="test"
+				maxlength="10"> <br> <input type="radio"> <br>
+			<input type="checkbox"> <br>
 </body>
 </html>
